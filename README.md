@@ -1,1 +1,82 @@
-# portfolio
+
+    <<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bezawit Solomon - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Bezawit Solomon Bogale</h1>
+            <nav>
+                <ul class="flex space-x-6 text-sm font-medium text-slate-600">
+                    <li><a href="#about" class="hover:text-indigo-600 transition">About Me</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-600 transition">Skills & Hobbies</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-600 transition">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+        <!-- About Section -->
+        <section id="about" class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 flex flex-col md:flex-row items-center gap-8">
+            <div class="flex-1 space-y-4">
+                <h2 class="text-3xl font-bold text-slate-900">About Me</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    I am a graduate in Urban Planning and Design from Addis Ababa University. I specialize in spatial planning, municipal urban management, and visual layouts.
+                </p>
+            </div>
+            <div class="w-48 h-48 flex-shrink-0">
+                <img src="profile,jpg.jpg" alt="A portrait of Bezawit Solomon" class="w-full h-full object-cover rounded-2xl shadow-md border-2 border-indigo-50">
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 space-y-6">
+            <h2 class="text-3xl font-bold text-slate-900">Skills & Hobbies</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Professional Skills -->
+                <div class="bg-slate-50 rounded-xl p-6 border border-slate-100 space-y-3">
+                    <h3 class="text-xl font-semibold text-indigo-600">Professional Skills</h3>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-indigo-500"></span>Urban Planning & Spatial Design</li>
+                        <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-indigo-500"></span>Graphic Design & Illustration (Adobe Illustrator, Photoshop)</li>
+                        <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-indigo-500"></span>Data Analysis Fundamentals (Microsoft Excel)</li>
+                    </ul>
+                </div>
+                <!-- Personal Hobbies -->
+                <div class="bg-slate-50 rounded-xl p-6 border border-slate-100 space-y-3">
+                    <h3 class="text-xl font-semibold text-indigo-600">Personal Hobbies</h3>
+                    <p class="text-slate-700">Outside of work, I enjoy cooking, reading books, listening to music, and traveling.</p>
+                </div>
+            </div>
+        </section>  
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 space-y-6">
+            <h2 class="text-3xl font-bold text-slate-900">Get In Touch</h2>
+            <form action="#" method="POST" class="max-w-xl space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-slate-700 mb-1">Your Name:</label>
+                    <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-slate-700 mb-1">Your Email:</label>
+                    <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                </div>
+                <div>
+                    <button type="submit" class="w-full md:w-auto px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg shadow-sm transition">Send Message</button>
+                </div>
+            </form>
+            <p class="text-xs text-slate-500">Or email directly: <a href="mailto:bezawitsolomon202@gmail.com" class="text-indigo-600 underline">bezawitsolomon202@gmail.com</a></p>
+        </section>
+    </main>!-- Footer -->
+    <footer class="bg-white border-t border-slate-100 py-6 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Bezawit Solomon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
